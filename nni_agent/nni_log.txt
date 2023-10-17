@@ -10274,3 +10274,14 @@ NameError: name 'close' is not defined
 2023-10-17 18:54:09,426 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 16, 'units3': 8, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 110, ' learning_rate': 0.9824552917280485}
 2023-10-17 18:54:09,426 - keras_regression - DEBUG - {'units1': 32, 'units2': 16, 'units3': 8, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 110, ' learning_rate': 0.9824552917280485}
 2023-10-17 18:54:09,426 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:58:09,836 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 4, 'units2': 16, 'units3': 4, 'batch_size': 8, 'window_size': 2, 'skip': 8, 'iterations': 110, ' learning_rate': 0.2910199106275517}
+2023-10-17 18:58:09,836 - keras_regression - DEBUG - {'units1': 4, 'units2': 16, 'units3': 4, 'optimizer': 'Adamax', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 2, 'skip': 8, 'iterations': 110, ' learning_rate': 0.2910199106275517}
+2023-10-17 18:58:09,836 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:01:56,914 - keras_regression - DEBUG - Model run
+2023-10-17 19:02:06,859 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 128, 'units2': 256, 'units3': 4, 'batch_size': 32, 'window_size': 2, 'skip': 2, 'iterations': 35, ' learning_rate': 0.4206228771082908}
+2023-10-17 19:02:06,860 - keras_regression - DEBUG - {'units1': 128, 'units2': 256, 'units3': 4, 'optimizer': 'RMSprop', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 2, 'skip': 2, 'iterations': 35, ' learning_rate': 0.4206228771082908}
+2023-10-17 19:02:06,860 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:07:05,885 - keras_regression - DEBUG - Model run
+2023-10-17 19:07:15,670 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 128, 'units2': 32, 'units3': 32, 'batch_size': 32, 'window_size': 64, 'skip': 2, 'iterations': 80, ' learning_rate': 0.688119625962703}
+2023-10-17 19:07:15,670 - keras_regression - DEBUG - {'units1': 128, 'units2': 32, 'units3': 32, 'optimizer': 'adam', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 80, ' learning_rate': 0.688119625962703}
+2023-10-17 19:07:15,670 - keras_regression - DEBUG - Parameters received
