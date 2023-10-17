@@ -1,0 +1,62 @@
+{
+  "time_steps": {
+    "_type": "choice",
+    "_value": [1,2,4,8,16, 32, 64, 128, 256]
+  },
+  "units1": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "units2": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "units3": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "batch_size": {
+    "_type": "choice",
+    "_value": [16,32,64]
+  },
+  "l1_rate_1": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  "l1_rate_2": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  "l1_rate_3": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  "l2_rate_1": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  "l2_rate_2": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  "l2_rate_3": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  " dropout_rate_1": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  " dropout_rate_2": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  " dropout_rate_3": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  },
+  " learning_rate": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  }
+}

@@ -1,0 +1,11 @@
+searchSpaceFile: search_space.json
+trialCommand: python main.py
+trialConcurrency: 1
+maxTrialNumber: 50
+maxExperimentDuration: 1h
+tuner:
+  name: Evolution
+  classArgs:
+    optimize_mode: maximize
+trainingService:  # For other platforms, check mnist-pytorch example
+  platform: local

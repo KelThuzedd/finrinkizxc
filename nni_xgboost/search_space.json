@@ -1,0 +1,46 @@
+{
+  "max_depth": {
+    "_type": "choice",
+    "_value": [2,3,4, 5, 6, 7, 8, 9, 10]
+  },
+  "n_estimators": {
+    "_type": "choice",
+    "_value": [50,100,200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000]
+  },
+  "learning_rate": {
+    "_type": "uniform",
+    "_value": [0.001, 0.4]
+  },
+  "subsample": {
+    "_type": "choice",
+    "_value": [0.4, 0.5 ,0.6, 0.7, 0.8, 0.9, 1.0]
+  },
+  "gamma": {
+    "_type": "uniform",
+    "_value": [0.0, 0.8]
+  },
+  "min_child_weight": {
+    "_type": "uniform",
+    "_value": [0.0, 1.0]
+  },
+  "max_delta_step": {
+    "_type": "uniform",
+    "_value": [0.0, 0.8]
+  },
+  "colsample_bytree": {
+    "_type": "uniform",
+    "_value": [0.6, 1.0]
+  },
+  "reg_alpha": {
+    "_type": "uniform",
+    "_value": [0.0, 0.8]
+  },
+  "reg_lambda": {
+    "_type": "uniform",
+    "_value": [0.0, 0.6]
+  },
+  "scale_pos_weight": {
+    "_type": "uniform",
+    "_value": [0.0, 1.5]
+  }
+}
