@@ -1,0 +1,38 @@
+{
+  "optimizer": {
+    "_type": "choice",
+    "_value": ["adam","SGD","RMSprop","Adamax"]
+  },
+  "units1": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "units2": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "units3": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "batch_size": {
+    "_type": "choice",
+    "_value": [8,16,32,64,128]
+  },
+  "window_size": {
+    "_type": "choice",
+    "_value": [2,4,8,16,32,64]
+  },
+  "skip": {
+    "_type": "choice",
+    "_value": [1,2,4,8]
+  },
+  "iterations": {
+    "_type": "choice",
+    "_value": [10,20,35,55,80,110]
+  },
+  " learning_rate": {
+    "_type": "uniform",
+    "_value": [0, 1]
+  }
+}

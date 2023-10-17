@@ -9772,3 +9772,505 @@ ValueError: in user code:
 2023-10-17 10:52:13,913 - keras_regression - DEBUG - {'time_steps': 256, 'units1': 4, 'units2': 2, 'units3': 16, 'batch_size': 32, 'l1_rate_1': 0.1962443879006529, 'l1_rate_2': 0.8395573601901055, 'l1_rate_3': 0.9898600830137179, 'l2_rate_1': 0.6783010880578481, 'l2_rate_2': 0.37360059593487194, 'l2_rate_3': 0.8561707974107057, ' dropout_rate_1': 0.1288872307749237, ' dropout_rate_2': 0.9674814785592483, ' dropout_rate_3': 0.8917037331272033, ' learning_rate': 0.32363414089658893}
 2023-10-17 10:52:13,913 - keras_regression - DEBUG - {'units1': 4, 'units2': 2, 'units3': 16, 'batch_size': 32, 'l1_rate_1': 0.1962443879006529, 'l1_rate_2': 0.8395573601901055, 'l1_rate_3': 0.9898600830137179, 'l2_rate_1': 0.6783010880578481, 'l2_rate_2': 0.37360059593487194, 'l2_rate_3': 0.8561707974107057, 'dropout_rate_1': 0.2, 'dropout_rate_2': 0.2, 'dropout_rate_3': 0.2, 'learning_rate': 0.001, 'time_steps': 256, ' dropout_rate_1': 0.1288872307749237, ' dropout_rate_2': 0.9674814785592483, ' dropout_rate_3': 0.8917037331272033, ' learning_rate': 0.32363414089658893}
 2023-10-17 10:52:14,657 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:17:31,194 - keras_regression - DEBUG - {}
+2023-10-17 18:17:31,194 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:17:31,194 - keras_regression - ERROR - 'dict' object has no attribute 'state_size'
+Traceback (most recent call last):
+  File "<ipython-input-2-e5acd089ef4a>", line 240, in <module>
+    Agent.build_model(PARAMS)
+  File "<ipython-input-2-e5acd089ef4a>", line 35, in build_model
+    tf.keras.layers.Dense(32, activation='relu', input_shape=(self.state_size,)),
+AttributeError: 'dict' object has no attribute 'state_size'
+2023-10-17 18:17:31,195 - keras_regression - DEBUG - Error
+2023-10-17 18:19:11,715 - keras_regression - DEBUG - {}
+2023-10-17 18:19:11,715 - keras_regression - DEBUG - {}
+2023-10-17 18:19:11,715 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:19:11,715 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:19:11,715 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-3-338047388ff6>", line 244, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:19:11,715 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-3-338047388ff6>", line 244, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:19:11,715 - keras_regression - DEBUG - Error
+2023-10-17 18:19:11,715 - keras_regression - DEBUG - Error
+2023-10-17 18:19:31,460 - keras_regression - DEBUG - {}
+2023-10-17 18:19:31,461 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:19:31,461 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-2-338047388ff6>", line 244, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:19:31,461 - keras_regression - DEBUG - Error
+2023-10-17 18:20:13,820 - keras_regression - DEBUG - {}
+2023-10-17 18:20:13,821 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:20:13,821 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-2-7df3796e7f00>", line 246, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:20:13,821 - keras_regression - DEBUG - Error
+2023-10-17 18:22:30,279 - keras_regression - DEBUG - {}
+2023-10-17 18:22:30,279 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:22:30,279 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-2-b7a5fab5bec3>", line 246, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:22:30,280 - keras_regression - DEBUG - Error
+2023-10-17 18:23:21,336 - keras_regression - DEBUG - {}
+2023-10-17 18:23:21,336 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:23:21,336 - keras_regression - ERROR - 'volume'
+Traceback (most recent call last):
+  File "<ipython-input-2-cb143d1b6042>", line 246, in <module>
+    PARAMS['batch_size'], PARAMS['volume'], PARAMS['day_of_week'], PARAMS['dayofyear'],
+KeyError: 'volume'
+2023-10-17 18:23:21,337 - keras_regression - DEBUG - Error
+2023-10-17 18:23:47,978 - keras_regression - DEBUG - {}
+2023-10-17 18:23:47,978 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:23:47,978 - keras_regression - ERROR - __init__() missing 5 required positional arguments: 'day_of_week', 'dayofyear', 'EMA_20', 'MACD', and 'Signal_Line'
+Traceback (most recent call last):
+  File "<ipython-input-2-78248fd34501>", line 245, in <module>
+    agent = Agent(PARAMS['units1'], PARAMS['units2'], PARAMS['units3'], PARAMS['window_size'], PARAMS['skip'],
+TypeError: __init__() missing 5 required positional arguments: 'day_of_week', 'dayofyear', 'EMA_20', 'MACD', and 'Signal_Line'
+2023-10-17 18:23:47,978 - keras_regression - DEBUG - Error
+2023-10-17 18:24:34,876 - keras_regression - DEBUG - {}
+2023-10-17 18:24:34,876 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:24:34,876 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-2-ea933458cdcd>", line 245, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:24:34,877 - keras_regression - DEBUG - Error
+2023-10-17 18:25:25,066 - keras_regression - DEBUG - {}
+2023-10-17 18:25:25,066 - keras_regression - DEBUG - {}
+2023-10-17 18:25:25,066 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:25:25,066 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:25:27,335 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-3-983a725a48f0>", line 248, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:25:27,335 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-3-983a725a48f0>", line 248, in <module>
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:25:27,336 - keras_regression - DEBUG - Error
+2023-10-17 18:25:27,336 - keras_regression - DEBUG - Error
+2023-10-17 18:26:01,503 - keras_regression - DEBUG - {}
+2023-10-17 18:26:01,503 - keras_regression - DEBUG - {}
+2023-10-17 18:26:01,503 - keras_regression - DEBUG - {}
+2023-10-17 18:26:01,503 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:26:01,503 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:26:01,503 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:26:01,779 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:26:01,779 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:26:01,779 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:26:01,838 - keras_regression - ERROR - [Errno 2] No such file or directory: 'data/data_lkoh.parquet'
+Traceback (most recent call last):
+  File "<ipython-input-4-a9f51eac309c>", line 250, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-4-a9f51eac309c>", line 177, in zxc_main
+    data_lkoh = pd.read_parquet('data/data_lkoh.parquet')
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 509, in read_parquet
+    return impl.read(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 220, in read
+    path_or_handle, handles, kwargs["filesystem"] = _get_path_or_handle(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 110, in _get_path_or_handle
+    handles = get_handle(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/data_lkoh.parquet'
+2023-10-17 18:26:01,838 - keras_regression - ERROR - [Errno 2] No such file or directory: 'data/data_lkoh.parquet'
+Traceback (most recent call last):
+  File "<ipython-input-4-a9f51eac309c>", line 250, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-4-a9f51eac309c>", line 177, in zxc_main
+    data_lkoh = pd.read_parquet('data/data_lkoh.parquet')
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 509, in read_parquet
+    return impl.read(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 220, in read
+    path_or_handle, handles, kwargs["filesystem"] = _get_path_or_handle(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 110, in _get_path_or_handle
+    handles = get_handle(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/data_lkoh.parquet'
+2023-10-17 18:26:01,838 - keras_regression - ERROR - [Errno 2] No such file or directory: 'data/data_lkoh.parquet'
+Traceback (most recent call last):
+  File "<ipython-input-4-a9f51eac309c>", line 250, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-4-a9f51eac309c>", line 177, in zxc_main
+    data_lkoh = pd.read_parquet('data/data_lkoh.parquet')
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 509, in read_parquet
+    return impl.read(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 220, in read
+    path_or_handle, handles, kwargs["filesystem"] = _get_path_or_handle(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\parquet.py", line 110, in _get_path_or_handle
+    handles = get_handle(
+  File "C:\Users\User\anaconda3\envs\models_checking\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/data_lkoh.parquet'
+2023-10-17 18:26:01,843 - keras_regression - DEBUG - Error
+2023-10-17 18:26:01,843 - keras_regression - DEBUG - Error
+2023-10-17 18:26:01,843 - keras_regression - DEBUG - Error
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {}
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {}
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {}
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {}
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:26:19,637 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:26:19,928 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:26:19,928 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:26:19,928 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:26:19,928 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:26:28,935 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-bde666a40713>", line 250, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-5-bde666a40713>", line 235, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-5-bde666a40713>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:26:28,935 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-bde666a40713>", line 250, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-5-bde666a40713>", line 235, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-5-bde666a40713>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:26:28,935 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-bde666a40713>", line 250, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-5-bde666a40713>", line 235, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-5-bde666a40713>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:26:28,935 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-bde666a40713>", line 250, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-5-bde666a40713>", line 235, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-5-bde666a40713>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:26:28,935 - keras_regression - DEBUG - Error
+2023-10-17 18:26:28,935 - keras_regression - DEBUG - Error
+2023-10-17 18:26:28,935 - keras_regression - DEBUG - Error
+2023-10-17 18:26:28,935 - keras_regression - DEBUG - Error
+2023-10-17 18:32:09,748 - keras_regression - DEBUG - {}
+2023-10-17 18:32:09,748 - keras_regression - DEBUG - {}
+2023-10-17 18:32:09,748 - keras_regression - DEBUG - {}
+2023-10-17 18:32:09,748 - keras_regression - DEBUG - {}
+2023-10-17 18:32:09,748 - keras_regression - DEBUG - {}
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:09,749 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:09,997 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-6-e00ea4de07d2>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-6-e00ea4de07d2>", line 221, in zxc_main
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:32:09,997 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-6-e00ea4de07d2>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-6-e00ea4de07d2>", line 221, in zxc_main
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:32:09,997 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-6-e00ea4de07d2>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-6-e00ea4de07d2>", line 221, in zxc_main
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:32:09,997 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-6-e00ea4de07d2>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-6-e00ea4de07d2>", line 221, in zxc_main
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:32:09,997 - keras_regression - ERROR - build_model() missing 1 required positional argument: 'PARAMS'
+Traceback (most recent call last):
+  File "<ipython-input-6-e00ea4de07d2>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-6-e00ea4de07d2>", line 221, in zxc_main
+    Agent.build_model(PARAMS)
+TypeError: build_model() missing 1 required positional argument: 'PARAMS'
+2023-10-17 18:32:09,997 - keras_regression - DEBUG - Error
+2023-10-17 18:32:09,997 - keras_regression - DEBUG - Error
+2023-10-17 18:32:09,997 - keras_regression - DEBUG - Error
+2023-10-17 18:32:09,997 - keras_regression - DEBUG - Error
+2023-10-17 18:32:09,997 - keras_regression - DEBUG - Error
+2023-10-17 18:32:21,986 - keras_regression - DEBUG - {}
+2023-10-17 18:32:21,986 - keras_regression - DEBUG - {}
+2023-10-17 18:32:21,986 - keras_regression - DEBUG - {}
+2023-10-17 18:32:21,986 - keras_regression - DEBUG - {}
+2023-10-17 18:32:21,986 - keras_regression - DEBUG - {}
+2023-10-17 18:32:21,986 - keras_regression - DEBUG - {}
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:21,987 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:30,010 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-7-e2e9121ec616>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-7-e2e9121ec616>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-7-e2e9121ec616>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:32:30,010 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-7-e2e9121ec616>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-7-e2e9121ec616>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-7-e2e9121ec616>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:32:30,010 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-7-e2e9121ec616>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-7-e2e9121ec616>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-7-e2e9121ec616>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:32:30,010 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-7-e2e9121ec616>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-7-e2e9121ec616>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-7-e2e9121ec616>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:32:30,010 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-7-e2e9121ec616>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-7-e2e9121ec616>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-7-e2e9121ec616>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:32:30,010 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-7-e2e9121ec616>", line 247, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-7-e2e9121ec616>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-7-e2e9121ec616>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:32:30,011 - keras_regression - DEBUG - Error
+2023-10-17 18:32:30,011 - keras_regression - DEBUG - Error
+2023-10-17 18:32:30,011 - keras_regression - DEBUG - Error
+2023-10-17 18:32:30,011 - keras_regression - DEBUG - Error
+2023-10-17 18:32:30,011 - keras_regression - DEBUG - Error
+2023-10-17 18:32:30,011 - keras_regression - DEBUG - Error
+2023-10-17 18:32:58,857 - keras_regression - DEBUG - {}
+2023-10-17 18:32:58,857 - keras_regression - DEBUG - {}
+2023-10-17 18:32:58,857 - keras_regression - DEBUG - {}
+2023-10-17 18:32:58,857 - keras_regression - DEBUG - {}
+2023-10-17 18:32:58,857 - keras_regression - DEBUG - {}
+2023-10-17 18:32:58,857 - keras_regression - DEBUG - {}
+2023-10-17 18:32:58,857 - keras_regression - DEBUG - {}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:32:58,858 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:33:07,200 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-8-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-8-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-8-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:07,200 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-8-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-8-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-8-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:07,200 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-8-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-8-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-8-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:07,200 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-8-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-8-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-8-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:07,200 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-8-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-8-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-8-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:07,200 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-8-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-8-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-8-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:07,200 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-8-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-8-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-8-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:07,201 - keras_regression - DEBUG - Error
+2023-10-17 18:33:07,201 - keras_regression - DEBUG - Error
+2023-10-17 18:33:07,201 - keras_regression - DEBUG - Error
+2023-10-17 18:33:07,201 - keras_regression - DEBUG - Error
+2023-10-17 18:33:07,201 - keras_regression - DEBUG - Error
+2023-10-17 18:33:07,201 - keras_regression - DEBUG - Error
+2023-10-17 18:33:07,201 - keras_regression - DEBUG - Error
+2023-10-17 18:33:22,585 - keras_regression - DEBUG - {}
+2023-10-17 18:33:22,586 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:33:22,586 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:33:30,944 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-2-639021b5d7e9>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-2-639021b5d7e9>", line 236, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-2-639021b5d7e9>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:33:30,945 - keras_regression - DEBUG - Error
+2023-10-17 18:34:07,725 - keras_regression - DEBUG - {}
+2023-10-17 18:34:07,725 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:34:07,725 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:34:08,555 - keras_regression - ERROR - 'Agent' object has no attribute 'model'
+Traceback (most recent call last):
+  File "<ipython-input-2-bc3e1b2180c3>", line 251, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-2-bc3e1b2180c3>", line 223, in zxc_main
+    agent.train(iterations = PARAMS['iterations'], checkpoint = 5, initial_money = initial_money)
+  File "<ipython-input-2-bc3e1b2180c3>", line 124, in train
+    action = self.act(state)
+  File "<ipython-input-2-bc3e1b2180c3>", line 51, in act
+    return np.argmax(self.model.predict(state.reshape(1, self.state_size),verbose = 0)[0])
+AttributeError: 'Agent' object has no attribute 'model'
+2023-10-17 18:34:08,555 - keras_regression - DEBUG - Error
+2023-10-17 18:35:50,178 - keras_regression - DEBUG - {}
+2023-10-17 18:35:50,178 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:35:50,178 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:35:59,003 - keras_regression - ERROR - name 'close' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-2-6f1af9c13538>", line 249, in <module>
+    zxc_main(PARAMS)
+  File "<ipython-input-2-6f1af9c13538>", line 234, in zxc_main
+    states_buy_test, states_sell_test, total_gains_test, invest_test = agent.buy(initial_money = initial_money)
+  File "<ipython-input-2-6f1af9c13538>", line 110, in buy
+    (t, close[t], invest, initial_money))
+NameError: name 'close' is not defined
+2023-10-17 18:35:59,003 - keras_regression - DEBUG - Error
+2023-10-17 18:38:27,323 - keras_regression - DEBUG - {}
+2023-10-17 18:38:27,323 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:38:27,323 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:38:35,606 - keras_regression - DEBUG - Model run
+2023-10-17 18:40:49,515 - keras_regression - DEBUG - {}
+2023-10-17 18:40:49,515 - keras_regression - DEBUG - {}
+2023-10-17 18:40:49,515 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'RMSprop', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:40:49,515 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'RMSprop', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:40:49,515 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:40:49,515 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:40:57,597 - keras_regression - DEBUG - Model run
+2023-10-17 18:40:57,597 - keras_regression - DEBUG - Model run
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - {}
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - {}
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - {}
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'Adamax', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'Adamax', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - {'units1': 8, 'units2': 8, 'units3': 8, 'optimizer': 'Adamax', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 10, 'skip': 4, 'iterations': 20}
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:41:45,465 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:41:53,525 - keras_regression - DEBUG - Model run
+2023-10-17 18:41:53,525 - keras_regression - DEBUG - Model run
+2023-10-17 18:41:53,525 - keras_regression - DEBUG - Model run
+2023-10-17 18:47:08,895 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 2, 'units2': 4, 'units3': 16, 'batch_size': 8, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.3661558113594502}
+2023-10-17 18:47:08,895 - keras_regression - DEBUG - {'units1': 2, 'units2': 4, 'units3': 16, 'optimizer': 'adam', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.3661558113594502}
+2023-10-17 18:47:08,895 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:49:38,631 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 2, 'units2': 64, 'units3': 256, 'batch_size': 32, 'window_size': 2, 'skip': 4, 'iterations': 20, ' learning_rate': 0.7082341047664259}
+2023-10-17 18:49:38,632 - keras_regression - DEBUG - {'units1': 2, 'units2': 64, 'units3': 256, 'optimizer': 'RMSprop', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 2, 'skip': 4, 'iterations': 20, ' learning_rate': 0.7082341047664259}
+2023-10-17 18:49:38,632 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:50:50,656 - keras_regression - DEBUG - Model run
+2023-10-17 18:50:57,909 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 32, 'batch_size': 8, 'window_size': 64, 'skip': 4, 'iterations': 55, ' learning_rate': 0.34599037327457827}
+2023-10-17 18:50:57,909 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 55, ' learning_rate': 0.34599037327457827}
+2023-10-17 18:50:57,909 - keras_regression - DEBUG - Parameters received
+2023-10-17 18:54:02,815 - keras_regression - DEBUG - Model run
+2023-10-17 18:54:09,426 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 16, 'units3': 8, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 110, ' learning_rate': 0.9824552917280485}
+2023-10-17 18:54:09,426 - keras_regression - DEBUG - {'units1': 32, 'units2': 16, 'units3': 8, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 110, ' learning_rate': 0.9824552917280485}
+2023-10-17 18:54:09,426 - keras_regression - DEBUG - Parameters received
