@@ -10285,3 +10285,343 @@ NameError: name 'close' is not defined
 2023-10-17 19:07:15,670 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 128, 'units2': 32, 'units3': 32, 'batch_size': 32, 'window_size': 64, 'skip': 2, 'iterations': 80, ' learning_rate': 0.688119625962703}
 2023-10-17 19:07:15,670 - keras_regression - DEBUG - {'units1': 128, 'units2': 32, 'units3': 32, 'optimizer': 'adam', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 80, ' learning_rate': 0.688119625962703}
 2023-10-17 19:07:15,670 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:17:19,619 - keras_regression - DEBUG - Model run
+2023-10-17 19:17:33,209 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 32, 'units2': 16, 'units3': 128, 'batch_size': 128, 'window_size': 2, 'skip': 8, 'iterations': 20, ' learning_rate': 0.5034117072509094}
+2023-10-17 19:17:33,210 - keras_regression - DEBUG - {'units1': 32, 'units2': 16, 'units3': 128, 'optimizer': 'RMSprop', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 2, 'skip': 8, 'iterations': 20, ' learning_rate': 0.5034117072509094}
+2023-10-17 19:17:33,210 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:18:15,273 - keras_regression - DEBUG - Model run
+2023-10-17 19:18:23,495 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 2, 'units2': 256, 'units3': 16, 'batch_size': 32, 'window_size': 2, 'skip': 2, 'iterations': 110, ' learning_rate': 0.26324831562965234}
+2023-10-17 19:18:23,496 - keras_regression - DEBUG - {'units1': 2, 'units2': 256, 'units3': 16, 'optimizer': 'RMSprop', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 2, 'skip': 2, 'iterations': 110, ' learning_rate': 0.26324831562965234}
+2023-10-17 19:18:23,496 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:32:08,797 - keras_regression - DEBUG - Model run
+2023-10-17 19:32:21,685 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 4, 'units3': 128, 'batch_size': 64, 'window_size': 2, 'skip': 4, 'iterations': 55, ' learning_rate': 0.6115818391380935}
+2023-10-17 19:32:21,686 - keras_regression - DEBUG - {'units1': 8, 'units2': 4, 'units3': 128, 'optimizer': 'adam', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 2, 'skip': 4, 'iterations': 55, ' learning_rate': 0.6115818391380935}
+2023-10-17 19:32:21,686 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:35:50,780 - keras_regression - DEBUG - Model run
+2023-10-17 19:35:57,388 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 16, 'units2': 256, 'units3': 128, 'batch_size': 32, 'window_size': 8, 'skip': 2, 'iterations': 10, ' learning_rate': 0.8030616295882258}
+2023-10-17 19:35:57,389 - keras_regression - DEBUG - {'units1': 16, 'units2': 256, 'units3': 128, 'optimizer': 'RMSprop', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 8, 'skip': 2, 'iterations': 10, ' learning_rate': 0.8030616295882258}
+2023-10-17 19:35:57,389 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:37:18,984 - keras_regression - DEBUG - Model run
+2023-10-17 19:37:31,056 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 16, 'units2': 4, 'units3': 2, 'batch_size': 8, 'window_size': 32, 'skip': 8, 'iterations': 110, ' learning_rate': 0.21733002997419115}
+2023-10-17 19:37:31,056 - keras_regression - DEBUG - {'units1': 16, 'units2': 4, 'units3': 2, 'optimizer': 'RMSprop', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 32, 'skip': 8, 'iterations': 110, ' learning_rate': 0.21733002997419115}
+2023-10-17 19:37:31,057 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:40:55,552 - keras_regression - DEBUG - Model run
+2023-10-17 19:41:02,214 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 128, 'units2': 8, 'units3': 128, 'batch_size': 8, 'window_size': 16, 'skip': 4, 'iterations': 80, ' learning_rate': 0.33461758557270904}
+2023-10-17 19:41:02,214 - keras_regression - DEBUG - {'units1': 128, 'units2': 8, 'units3': 128, 'optimizer': 'Adamax', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 16, 'skip': 4, 'iterations': 80, ' learning_rate': 0.33461758557270904}
+2023-10-17 19:41:02,214 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:45:37,297 - keras_regression - DEBUG - Model run
+2023-10-17 19:45:44,408 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 128, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 4, 'skip': 1, 'iterations': 20, ' learning_rate': 0.3334450986760781}
+2023-10-17 19:45:44,409 - keras_regression - DEBUG - {'units1': 128, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 4, 'skip': 1, 'iterations': 20, ' learning_rate': 0.3334450986760781}
+2023-10-17 19:45:44,409 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:50:33,133 - keras_regression - DEBUG - Model run
+2023-10-17 19:50:42,387 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 128, 'units2': 256, 'units3': 4, 'batch_size': 64, 'window_size': 4, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4206228771082908}
+2023-10-17 19:50:42,387 - keras_regression - DEBUG - {'units1': 128, 'units2': 256, 'units3': 4, 'optimizer': 'RMSprop', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 4, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4206228771082908}
+2023-10-17 19:50:42,388 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:52:45,434 - keras_regression - DEBUG - Model run
+2023-10-17 19:52:50,248 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 2, 'units3': 16, 'batch_size': 32, 'window_size': 64, 'skip': 1, 'iterations': 20, ' learning_rate': 0.3650493598136618}
+2023-10-17 19:52:50,248 - keras_regression - DEBUG - {'units1': 8, 'units2': 2, 'units3': 16, 'optimizer': 'adam', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 64, 'skip': 1, 'iterations': 20, ' learning_rate': 0.3650493598136618}
+2023-10-17 19:52:50,248 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:57:30,125 - keras_regression - DEBUG - Model run
+2023-10-17 19:57:34,799 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 128, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 32, 'skip': 4, 'iterations': 20, ' learning_rate': 0.3334450986760781}
+2023-10-17 19:57:34,799 - keras_regression - DEBUG - {'units1': 128, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 32, 'skip': 4, 'iterations': 20, ' learning_rate': 0.3334450986760781}
+2023-10-17 19:57:34,799 - keras_regression - DEBUG - Parameters received
+2023-10-17 19:58:50,427 - keras_regression - DEBUG - Model run
+2023-10-17 19:58:56,341 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 8, 'units2': 128, 'units3': 4, 'batch_size': 128, 'window_size': 32, 'skip': 8, 'iterations': 55, ' learning_rate': 0.3063735017844621}
+2023-10-17 19:58:56,341 - keras_regression - DEBUG - {'units1': 8, 'units2': 128, 'units3': 4, 'optimizer': 'RMSprop', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 8, 'iterations': 55, ' learning_rate': 0.3063735017844621}
+2023-10-17 19:58:56,341 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:00:35,578 - keras_regression - DEBUG - Model run
+2023-10-17 20:00:40,404 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 128, 'units2': 16, 'units3': 4, 'batch_size': 64, 'window_size': 32, 'skip': 8, 'iterations': 55, ' learning_rate': 0.15175460487941672}
+2023-10-17 20:00:40,404 - keras_regression - DEBUG - {'units1': 128, 'units2': 16, 'units3': 4, 'optimizer': 'Adamax', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 32, 'skip': 8, 'iterations': 55, ' learning_rate': 0.15175460487941672}
+2023-10-17 20:00:40,404 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:02:26,166 - keras_regression - DEBUG - Model run
+2023-10-17 20:02:31,458 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 16, 'units2': 16, 'units3': 64, 'batch_size': 32, 'window_size': 16, 'skip': 2, 'iterations': 10, ' learning_rate': 0.6412194262593752}
+2023-10-17 20:02:31,458 - keras_regression - DEBUG - {'units1': 16, 'units2': 16, 'units3': 64, 'optimizer': 'SGD', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 10, ' learning_rate': 0.6412194262593752}
+2023-10-17 20:02:31,458 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:03:51,650 - keras_regression - DEBUG - Model run
+2023-10-17 20:03:56,015 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 64, 'units2': 256, 'units3': 8, 'batch_size': 32, 'window_size': 16, 'skip': 1, 'iterations': 55, ' learning_rate': 0.5674914248982028}
+2023-10-17 20:03:56,015 - keras_regression - DEBUG - {'units1': 64, 'units2': 256, 'units3': 8, 'optimizer': 'SGD', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 16, 'skip': 1, 'iterations': 55, ' learning_rate': 0.5674914248982028}
+2023-10-17 20:03:56,015 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:20:17,636 - keras_regression - DEBUG - Model run
+2023-10-17 20:20:32,145 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 2, 'units2': 2, 'units3': 2, 'batch_size': 16, 'window_size': 16, 'skip': 8, 'iterations': 35, ' learning_rate': 0.8295356820564286}
+2023-10-17 20:20:32,145 - keras_regression - DEBUG - {'units1': 2, 'units2': 2, 'units3': 2, 'optimizer': 'RMSprop', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 8, 'iterations': 35, ' learning_rate': 0.8295356820564286}
+2023-10-17 20:20:32,146 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:22:05,521 - keras_regression - DEBUG - Model run
+2023-10-17 20:22:13,454 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 4, 'units2': 128, 'units3': 256, 'batch_size': 32, 'window_size': 2, 'skip': 2, 'iterations': 10, ' learning_rate': 0.0147979717679384}
+2023-10-17 20:22:13,454 - keras_regression - DEBUG - {'units1': 4, 'units2': 128, 'units3': 256, 'optimizer': 'RMSprop', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 2, 'skip': 2, 'iterations': 10, ' learning_rate': 0.0147979717679384}
+2023-10-17 20:22:13,454 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:23:59,459 - keras_regression - DEBUG - Model run
+2023-10-17 20:24:05,747 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 4, 'units2': 2, 'units3': 4, 'batch_size': 128, 'window_size': 2, 'skip': 4, 'iterations': 35, ' learning_rate': 0.8509367748405388}
+2023-10-17 20:24:05,748 - keras_regression - DEBUG - {'units1': 4, 'units2': 2, 'units3': 4, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 2, 'skip': 4, 'iterations': 35, ' learning_rate': 0.8509367748405388}
+2023-10-17 20:24:05,748 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:26:49,310 - keras_regression - DEBUG - Model run
+2023-10-17 20:26:58,656 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 64, 'units2': 4, 'units3': 16, 'batch_size': 32, 'window_size': 2, 'skip': 4, 'iterations': 35, ' learning_rate': 0.2994700100568408}
+2023-10-17 20:26:58,656 - keras_regression - DEBUG - {'units1': 64, 'units2': 4, 'units3': 16, 'optimizer': 'Adamax', 'batch_size': 32, 'learning_rate': 0.01, 'window_size': 2, 'skip': 4, 'iterations': 35, ' learning_rate': 0.2994700100568408}
+2023-10-17 20:26:58,656 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:29:34,781 - keras_regression - DEBUG - Model run
+2023-10-17 20:29:39,129 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 16, 'units2': 16, 'units3': 8, 'batch_size': 8, 'window_size': 4, 'skip': 1, 'iterations': 110, ' learning_rate': 0.7444320096980409}
+2023-10-17 20:29:39,129 - keras_regression - DEBUG - {'units1': 16, 'units2': 16, 'units3': 8, 'optimizer': 'RMSprop', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 4, 'skip': 1, 'iterations': 110, ' learning_rate': 0.7444320096980409}
+2023-10-17 20:29:39,129 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:56:32,907 - keras_regression - DEBUG - Model run
+2023-10-17 20:56:44,211 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 256, 'units2': 64, 'units3': 2, 'batch_size': 16, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.06207239800718675}
+2023-10-17 20:56:44,212 - keras_regression - DEBUG - {'units1': 256, 'units2': 64, 'units3': 2, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.06207239800718675}
+2023-10-17 20:56:44,212 - keras_regression - DEBUG - Parameters received
+2023-10-17 20:58:58,199 - keras_regression - DEBUG - Model run
+2023-10-17 20:59:15,272 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 64, 'units2': 4, 'units3': 8, 'batch_size': 8, 'window_size': 4, 'skip': 1, 'iterations': 110, ' learning_rate': 0.7316295034358519}
+2023-10-17 20:59:15,272 - keras_regression - DEBUG - {'units1': 64, 'units2': 4, 'units3': 8, 'optimizer': 'Adamax', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 4, 'skip': 1, 'iterations': 110, ' learning_rate': 0.7316295034358519}
+2023-10-17 20:59:15,272 - keras_regression - DEBUG - Parameters received
+2023-10-17 21:24:59,263 - keras_regression - DEBUG - Model run
+2023-10-17 21:25:13,367 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 256, 'units2': 64, 'units3': 16, 'batch_size': 16, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.01656363165180555}
+2023-10-17 21:25:13,367 - keras_regression - DEBUG - {'units1': 256, 'units2': 64, 'units3': 16, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.01656363165180555}
+2023-10-17 21:25:13,367 - keras_regression - DEBUG - Parameters received
+2023-10-17 21:27:25,342 - keras_regression - DEBUG - Model run
+2023-10-17 21:27:30,830 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 64, 'units2': 4, 'units3': 8, 'batch_size': 8, 'window_size': 4, 'skip': 1, 'iterations': 110, ' learning_rate': 0.9148913781922358}
+2023-10-17 21:27:30,830 - keras_regression - DEBUG - {'units1': 64, 'units2': 4, 'units3': 8, 'optimizer': 'Adamax', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 4, 'skip': 1, 'iterations': 110, ' learning_rate': 0.9148913781922358}
+2023-10-17 21:27:30,830 - keras_regression - DEBUG - Parameters received
+2023-10-17 21:55:18,355 - keras_regression - DEBUG - Model run
+2023-10-17 21:55:35,871 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 256, 'units2': 64, 'units3': 16, 'batch_size': 16, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.16204829721548797}
+2023-10-17 21:55:35,872 - keras_regression - DEBUG - {'units1': 256, 'units2': 64, 'units3': 16, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.16204829721548797}
+2023-10-17 21:55:35,872 - keras_regression - DEBUG - Parameters received
+2023-10-17 21:57:43,744 - keras_regression - DEBUG - Model run
+2023-10-17 21:57:49,123 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 64, 'units2': 4, 'units3': 256, 'batch_size': 8, 'window_size': 4, 'skip': 1, 'iterations': 80, ' learning_rate': 0.956385122527392}
+2023-10-17 21:57:49,123 - keras_regression - DEBUG - {'units1': 64, 'units2': 4, 'units3': 256, 'optimizer': 'Adamax', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 4, 'skip': 1, 'iterations': 80, ' learning_rate': 0.956385122527392}
+2023-10-17 21:57:49,124 - keras_regression - DEBUG - Parameters received
+2023-10-17 22:17:26,287 - keras_regression - DEBUG - Model run
+2023-10-17 22:17:43,000 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 64, 'units2': 4, 'units3': 16, 'batch_size': 64, 'window_size': 2, 'skip': 2, 'iterations': 35, ' learning_rate': 0.2994700100568408}
+2023-10-17 22:17:43,001 - keras_regression - DEBUG - {'units1': 64, 'units2': 4, 'units3': 16, 'optimizer': 'Adamax', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 2, 'skip': 2, 'iterations': 35, ' learning_rate': 0.2994700100568408}
+2023-10-17 22:17:43,001 - keras_regression - DEBUG - Parameters received
+2023-10-17 22:22:03,515 - keras_regression - DEBUG - Model run
+2023-10-17 22:22:08,375 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 256, 'units2': 64, 'units3': 16, 'batch_size': 16, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.09825829567654046}
+2023-10-17 22:22:08,376 - keras_regression - DEBUG - {'units1': 256, 'units2': 64, 'units3': 16, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.09825829567654046}
+2023-10-17 22:22:08,376 - keras_regression - DEBUG - Parameters received
+2023-10-17 22:24:20,260 - keras_regression - DEBUG - Model run
+2023-10-17 22:24:27,893 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 64, 'units2': 4, 'units3': 256, 'batch_size': 8, 'window_size': 4, 'skip': 1, 'iterations': 80, ' learning_rate': 0.9911116248692872}
+2023-10-17 22:24:27,894 - keras_regression - DEBUG - {'units1': 64, 'units2': 4, 'units3': 256, 'optimizer': 'Adamax', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 4, 'skip': 1, 'iterations': 80, ' learning_rate': 0.9911116248692872}
+2023-10-17 22:24:27,894 - keras_regression - DEBUG - Parameters received
+2023-10-17 22:43:58,284 - keras_regression - DEBUG - Model run
+2023-10-17 22:44:10,705 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 256, 'units2': 64, 'units3': 16, 'batch_size': 16, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.09616995434326824}
+2023-10-17 22:44:10,706 - keras_regression - DEBUG - {'units1': 256, 'units2': 64, 'units3': 16, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.09616995434326824}
+2023-10-17 22:44:10,706 - keras_regression - DEBUG - Parameters received
+2023-10-17 22:46:27,513 - keras_regression - DEBUG - Model run
+2023-10-17 22:46:32,267 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.44397921728967865}
+2023-10-17 22:46:32,267 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.44397921728967865}
+2023-10-17 22:46:32,267 - keras_regression - DEBUG - Parameters received
+2023-10-17 22:48:42,751 - keras_regression - DEBUG - Model run
+2023-10-17 22:48:47,628 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 64, 'units2': 4, 'units3': 256, 'batch_size': 8, 'window_size': 4, 'skip': 1, 'iterations': 80, ' learning_rate': 0.4937449507353676}
+2023-10-17 22:48:47,628 - keras_regression - DEBUG - {'units1': 64, 'units2': 4, 'units3': 256, 'optimizer': 'Adamax', 'batch_size': 8, 'learning_rate': 0.01, 'window_size': 4, 'skip': 1, 'iterations': 80, ' learning_rate': 0.4937449507353676}
+2023-10-17 22:48:47,628 - keras_regression - DEBUG - Parameters received
+2023-10-17 23:08:19,259 - keras_regression - DEBUG - Model run
+2023-10-17 23:08:32,963 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 16, 'batch_size': 16, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4250024660389543}
+2023-10-17 23:08:33,049 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 16, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 8, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4250024660389543}
+2023-10-17 23:08:33,049 - keras_regression - DEBUG - Parameters received
+2023-10-17 23:10:47,775 - keras_regression - DEBUG - Model run
+2023-10-17 23:10:52,333 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4890456697921116}
+2023-10-17 23:10:52,334 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4890456697921116}
+2023-10-17 23:10:52,334 - keras_regression - DEBUG - Parameters received
+2023-10-17 23:13:04,213 - keras_regression - DEBUG - Model run
+2023-10-17 23:13:09,605 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 1, 'iterations': 80, ' learning_rate': 0.49864134441092794}
+2023-10-17 23:13:09,606 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 1, 'iterations': 80, ' learning_rate': 0.49864134441092794}
+2023-10-17 23:13:09,606 - keras_regression - DEBUG - Parameters received
+2023-10-17 23:32:47,285 - keras_regression - DEBUG - Model run
+2023-10-17 23:32:54,633 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.421104932249595}
+2023-10-17 23:32:54,633 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.421104932249595}
+2023-10-17 23:32:54,633 - keras_regression - DEBUG - Parameters received
+2023-10-17 23:35:07,155 - keras_regression - DEBUG - Model run
+2023-10-17 23:35:12,100 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.5319863009466871}
+2023-10-17 23:35:12,101 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.5319863009466871}
+2023-10-17 23:35:12,101 - keras_regression - DEBUG - Parameters received
+2023-10-17 23:37:27,550 - keras_regression - DEBUG - Model run
+2023-10-17 23:37:32,283 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 1, 'iterations': 80, ' learning_rate': 0.4246609647864442}
+2023-10-17 23:37:32,284 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 1, 'iterations': 80, ' learning_rate': 0.4246609647864442}
+2023-10-17 23:37:32,284 - keras_regression - DEBUG - Parameters received
+2023-10-17 23:57:45,614 - keras_regression - DEBUG - Model run
+2023-10-17 23:57:57,993 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4064838795954529}
+2023-10-17 23:57:57,993 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.4064838795954529}
+2023-10-17 23:57:57,993 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:00:26,092 - keras_regression - DEBUG - Model run
+2023-10-18 00:00:31,664 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.5567214469429267}
+2023-10-18 00:00:31,665 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'Adamax', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.5567214469429267}
+2023-10-18 00:00:31,665 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:02:51,961 - keras_regression - DEBUG - Model run
+2023-10-18 00:02:56,461 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 1, 'iterations': 80, ' learning_rate': 0.3856818970194649}
+2023-10-18 00:02:56,462 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 1, 'iterations': 80, ' learning_rate': 0.3856818970194649}
+2023-10-18 00:02:56,462 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:23:08,812 - keras_regression - DEBUG - Model run
+2023-10-18 00:23:20,791 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 32, 'units2': 32, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.571154699780113}
+2023-10-18 00:23:20,793 - keras_regression - DEBUG - {'units1': 32, 'units2': 32, 'units3': 64, 'optimizer': 'SGD', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.571154699780113}
+2023-10-18 00:23:20,793 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:25:38,246 - keras_regression - DEBUG - Model run
+2023-10-18 00:25:43,808 - keras_regression - DEBUG - {'optimizer': 'Adamax', 'units1': 2, 'units2': 32, 'units3': 64, 'batch_size': 64, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.5641674504528972}
+2023-10-18 00:25:43,809 - keras_regression - DEBUG - {'units1': 2, 'units2': 32, 'units3': 64, 'optimizer': 'Adamax', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 35, ' learning_rate': 0.5641674504528972}
+2023-10-18 00:25:43,809 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:28:00,036 - keras_regression - DEBUG - Model run
+2023-10-18 00:28:07,262 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 64, 'skip': 1, 'iterations': 20, ' learning_rate': 0.21012533982770853}
+2023-10-18 00:28:07,262 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 64, 'skip': 1, 'iterations': 20, ' learning_rate': 0.21012533982770853}
+2023-10-18 00:28:07,262 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:33:19,161 - keras_regression - DEBUG - Model run
+2023-10-18 00:33:24,145 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.6392810360503048}
+2023-10-18 00:33:24,145 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.6392810360503048}
+2023-10-18 00:33:24,146 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:34:46,266 - keras_regression - DEBUG - Model run
+2023-10-18 00:34:51,798 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.682644943448685}
+2023-10-18 00:34:51,798 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.682644943448685}
+2023-10-18 00:34:51,798 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:36:09,084 - keras_regression - DEBUG - Model run
+2023-10-18 00:36:13,447 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 64, 'skip': 1, 'iterations': 20, ' learning_rate': 0.2500672663997495}
+2023-10-18 00:36:13,447 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 64, 'skip': 1, 'iterations': 20, ' learning_rate': 0.2500672663997495}
+2023-10-18 00:36:13,447 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:41:23,726 - keras_regression - DEBUG - Model run
+2023-10-18 00:41:30,673 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.6322981633432146}
+2023-10-18 00:41:30,674 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.6322981633432146}
+2023-10-18 00:41:30,674 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:42:48,364 - keras_regression - DEBUG - Model run
+2023-10-18 00:42:54,012 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.8632227494749023}
+2023-10-18 00:42:54,012 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 64, 'skip': 4, 'iterations': 20, ' learning_rate': 0.8632227494749023}
+2023-10-18 00:42:54,012 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:44:11,328 - keras_regression - DEBUG - Model run
+2023-10-18 00:44:15,865 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 32, 'skip': 2, 'iterations': 20, ' learning_rate': 0.7857466248878364}
+2023-10-18 00:44:15,865 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 32, 'skip': 2, 'iterations': 20, ' learning_rate': 0.7857466248878364}
+2023-10-18 00:44:15,865 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:46:53,239 - keras_regression - DEBUG - Model run
+2023-10-18 00:46:58,840 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 2, 'units2': 8, 'units3': 32, 'batch_size': 64, 'window_size': 32, 'skip': 4, 'iterations': 20, ' learning_rate': 0.8804303895986737}
+2023-10-18 00:46:58,840 - keras_regression - DEBUG - {'units1': 2, 'units2': 8, 'units3': 32, 'optimizer': 'SGD', 'batch_size': 64, 'learning_rate': 0.01, 'window_size': 32, 'skip': 4, 'iterations': 20, ' learning_rate': 0.8804303895986737}
+2023-10-18 00:46:58,840 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:48:17,698 - keras_regression - DEBUG - Model run
+2023-10-18 00:48:22,423 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 8, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 32, 'skip': 4, 'iterations': 10, ' learning_rate': 0.9080611413234202}
+2023-10-18 00:48:22,423 - keras_regression - DEBUG - {'units1': 8, 'units2': 128, 'units3': 2, 'optimizer': 'SGD', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 4, 'iterations': 10, ' learning_rate': 0.9080611413234202}
+2023-10-18 00:48:22,423 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:49:04,115 - keras_regression - DEBUG - Model run
+2023-10-18 00:49:09,020 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 8, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 32, 'skip': 2, 'iterations': 10, ' learning_rate': 0.792246850539143}
+2023-10-18 00:49:09,020 - keras_regression - DEBUG - {'units1': 8, 'units2': 128, 'units3': 2, 'optimizer': 'SGD', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 2, 'iterations': 10, ' learning_rate': 0.792246850539143}
+2023-10-18 00:49:09,021 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:50:31,825 - keras_regression - DEBUG - Model run
+2023-10-18 00:50:36,800 - keras_regression - DEBUG - {'optimizer': 'SGD', 'units1': 8, 'units2': 2, 'units3': 2, 'batch_size': 128, 'window_size': 32, 'skip': 4, 'iterations': 10, ' learning_rate': 0.8914998304524364}
+2023-10-18 00:50:36,800 - keras_regression - DEBUG - {'units1': 8, 'units2': 2, 'units3': 2, 'optimizer': 'SGD', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 4, 'iterations': 10, ' learning_rate': 0.8914998304524364}
+2023-10-18 00:50:36,800 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:51:17,574 - keras_regression - DEBUG - Model run
+2023-10-18 00:51:24,654 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 32, 'skip': 8, 'iterations': 10, ' learning_rate': 0.9364761891451281}
+2023-10-18 00:51:24,655 - keras_regression - DEBUG - {'units1': 8, 'units2': 128, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 8, 'iterations': 10, ' learning_rate': 0.9364761891451281}
+2023-10-18 00:51:24,655 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:51:46,697 - keras_regression - DEBUG - Model run
+2023-10-18 00:51:51,329 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 32, 'skip': 2, 'iterations': 10, ' learning_rate': 0.7450974089060107}
+2023-10-18 00:51:51,329 - keras_regression - DEBUG - {'units1': 8, 'units2': 128, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 2, 'iterations': 10, ' learning_rate': 0.7450974089060107}
+2023-10-18 00:51:51,329 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:53:16,197 - keras_regression - DEBUG - Model run
+2023-10-18 00:53:21,829 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 2, 'units3': 2, 'batch_size': 128, 'window_size': 32, 'skip': 8, 'iterations': 10, ' learning_rate': 0.970578723693019}
+2023-10-18 00:53:21,829 - keras_regression - DEBUG - {'units1': 8, 'units2': 2, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 8, 'iterations': 10, ' learning_rate': 0.970578723693019}
+2023-10-18 00:53:21,829 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:53:45,031 - keras_regression - DEBUG - Model run
+2023-10-18 00:53:49,396 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 32, 'skip': 8, 'iterations': 10, ' learning_rate': 0.947029452117849}
+2023-10-18 00:53:49,396 - keras_regression - DEBUG - {'units1': 8, 'units2': 128, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 32, 'skip': 8, 'iterations': 10, ' learning_rate': 0.947029452117849}
+2023-10-18 00:53:49,396 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:54:12,376 - keras_regression - DEBUG - Model run
+2023-10-18 00:54:17,170 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 16, 'skip': 2, 'iterations': 10, ' learning_rate': 0.7434076138281515}
+2023-10-18 00:54:17,171 - keras_regression - DEBUG - {'units1': 8, 'units2': 128, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 10, ' learning_rate': 0.7434076138281515}
+2023-10-18 00:54:17,171 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:55:41,618 - keras_regression - DEBUG - Model run
+2023-10-18 00:55:46,237 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 8, 'units2': 2, 'units3': 2, 'batch_size': 128, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.9936362869907981}
+2023-10-18 00:55:46,237 - keras_regression - DEBUG - {'units1': 8, 'units2': 2, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.9936362869907981}
+2023-10-18 00:55:46,237 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:56:08,002 - keras_regression - DEBUG - Model run
+2023-10-18 00:56:12,346 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 4, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.6864842946109707}
+2023-10-18 00:56:12,346 - keras_regression - DEBUG - {'units1': 4, 'units2': 128, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.6864842946109707}
+2023-10-18 00:56:12,346 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:56:34,481 - keras_regression - DEBUG - Model run
+2023-10-18 00:56:39,063 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 128, 'units3': 2, 'batch_size': 128, 'window_size': 16, 'skip': 2, 'iterations': 10, ' learning_rate': 0.6981766791045476}
+2023-10-18 00:56:39,063 - keras_regression - DEBUG - {'units1': 32, 'units2': 128, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 10, ' learning_rate': 0.6981766791045476}
+2023-10-18 00:56:39,064 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:58:00,056 - keras_regression - DEBUG - Model run
+2023-10-18 00:58:05,774 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 4, 'units2': 2, 'units3': 2, 'batch_size': 128, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.4570214303676383}
+2023-10-18 00:58:05,774 - keras_regression - DEBUG - {'units1': 4, 'units2': 2, 'units3': 2, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.4570214303676383}
+2023-10-18 00:58:05,774 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:58:28,216 - keras_regression - DEBUG - Model run
+2023-10-18 00:58:33,128 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 4, 'units2': 128, 'units3': 64, 'batch_size': 128, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.45625136443203873}
+2023-10-18 00:58:33,129 - keras_regression - DEBUG - {'units1': 4, 'units2': 128, 'units3': 64, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 8, 'iterations': 10, ' learning_rate': 0.45625136443203873}
+2023-10-18 00:58:33,129 - keras_regression - DEBUG - Parameters received
+2023-10-18 00:58:54,702 - keras_regression - DEBUG - Model run
+2023-10-18 00:59:01,263 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 128, 'units3': 64, 'batch_size': 128, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.4666582993496172}
+2023-10-18 00:59:01,264 - keras_regression - DEBUG - {'units1': 32, 'units2': 128, 'units3': 64, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.4666582993496172}
+2023-10-18 00:59:01,264 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:05:56,468 - keras_regression - DEBUG - Model run
+2023-10-18 01:06:01,403 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 4, 'units2': 2, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 8, 'iterations': 55, ' learning_rate': 0.3696714309861482}
+2023-10-18 01:06:01,403 - keras_regression - DEBUG - {'units1': 4, 'units2': 2, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 8, 'iterations': 55, ' learning_rate': 0.3696714309861482}
+2023-10-18 01:06:01,404 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:07:44,729 - keras_regression - DEBUG - Model run
+2023-10-18 01:07:51,437 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 4, 'units2': 128, 'units3': 64, 'batch_size': 128, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.37601617931536735}
+2023-10-18 01:07:51,437 - keras_regression - DEBUG - {'units1': 4, 'units2': 128, 'units3': 64, 'optimizer': 'adam', 'batch_size': 128, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.37601617931536735}
+2023-10-18 01:07:51,438 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:14:50,957 - keras_regression - DEBUG - Model run
+2023-10-18 01:14:55,835 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 2, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.38182321435015887}
+2023-10-18 01:14:55,835 - keras_regression - DEBUG - {'units1': 32, 'units2': 2, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.38182321435015887}
+2023-10-18 01:14:55,835 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:21:48,061 - keras_regression - DEBUG - Model run
+2023-10-18 01:21:53,233 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 4, 'units2': 2, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.384229912174563}
+2023-10-18 01:21:53,234 - keras_regression - DEBUG - {'units1': 4, 'units2': 2, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.384229912174563}
+2023-10-18 01:21:53,234 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:28:43,824 - keras_regression - DEBUG - Model run
+2023-10-18 01:28:48,405 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5365950662066565}
+2023-10-18 01:28:48,405 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5365950662066565}
+2023-10-18 01:28:48,405 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:35:48,019 - keras_regression - DEBUG - Model run
+2023-10-18 01:35:54,716 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 2, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5327055018295823}
+2023-10-18 01:35:54,716 - keras_regression - DEBUG - {'units1': 32, 'units2': 2, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5327055018295823}
+2023-10-18 01:35:54,716 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:42:51,285 - keras_regression - DEBUG - Model run
+2023-10-18 01:42:57,003 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5901203560516968}
+2023-10-18 01:42:57,003 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5901203560516968}
+2023-10-18 01:42:57,003 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:50:14,298 - keras_regression - DEBUG - Model run
+2023-10-18 01:50:19,930 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5449355855664326}
+2023-10-18 01:50:19,930 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5449355855664326}
+2023-10-18 01:50:19,931 - keras_regression - DEBUG - Parameters received
+2023-10-18 01:57:20,695 - keras_regression - DEBUG - Model run
+2023-10-18 01:57:25,493 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5839352752332824}
+2023-10-18 01:57:25,493 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.5839352752332824}
+2023-10-18 01:57:25,493 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:04:18,589 - keras_regression - DEBUG - Model run
+2023-10-18 02:04:23,916 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.6018142853336401}
+2023-10-18 02:04:23,916 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.6018142853336401}
+2023-10-18 02:04:23,916 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:11:18,417 - keras_regression - DEBUG - Model run
+2023-10-18 02:11:23,423 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7805260805037914}
+2023-10-18 02:11:23,423 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7805260805037914}
+2023-10-18 02:11:23,424 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:18:20,875 - keras_regression - DEBUG - Model run
+2023-10-18 02:18:25,614 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7166494856658621}
+2023-10-18 02:18:25,614 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7166494856658621}
+2023-10-18 02:18:25,614 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:25:16,305 - keras_regression - DEBUG - Model run
+2023-10-18 02:25:21,161 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.8186047961755566}
+2023-10-18 02:25:21,161 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.8186047961755566}
+2023-10-18 02:25:21,161 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:32:18,181 - keras_regression - DEBUG - Model run
+2023-10-18 02:32:23,605 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7833288490410624}
+2023-10-18 02:32:23,605 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 16, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7833288490410624}
+2023-10-18 02:32:23,605 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:39:16,032 - keras_regression - DEBUG - Model run
+2023-10-18 02:39:21,730 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 64, 'batch_size': 16, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.8287000859536258}
+2023-10-18 02:39:21,730 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 64, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.8287000859536258}
+2023-10-18 02:39:21,730 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:46:16,354 - keras_regression - DEBUG - Model run
+2023-10-18 02:46:22,526 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 8, 'batch_size': 16, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.8229293482867013}
+2023-10-18 02:46:22,526 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 8, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.8229293482867013}
+2023-10-18 02:46:22,526 - keras_regression - DEBUG - Parameters received
+2023-10-18 02:53:17,274 - keras_regression - DEBUG - Model run
+2023-10-18 02:53:23,040 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 128, 'batch_size': 16, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7677846601302716}
+2023-10-18 02:53:23,040 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 128, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 55, ' learning_rate': 0.7677846601302716}
+2023-10-18 02:53:23,040 - keras_regression - DEBUG - Parameters received
+2023-10-18 03:00:17,710 - keras_regression - DEBUG - Model run
+2023-10-18 03:00:22,472 - keras_regression - DEBUG - {'optimizer': 'adam', 'units1': 32, 'units2': 256, 'units3': 8, 'batch_size': 16, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.6670792609986069}
+2023-10-18 03:00:22,473 - keras_regression - DEBUG - {'units1': 32, 'units2': 256, 'units3': 8, 'optimizer': 'adam', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.6670792609986069}
+2023-10-18 03:00:22,473 - keras_regression - DEBUG - Parameters received
+2023-10-18 03:13:43,704 - keras_regression - DEBUG - Model run
+2023-10-18 03:13:56,229 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 16, 'units2': 256, 'units3': 8, 'batch_size': 16, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.7670841025262128}
+2023-10-18 03:13:56,230 - keras_regression - DEBUG - {'units1': 16, 'units2': 256, 'units3': 8, 'optimizer': 'RMSprop', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.7670841025262128}
+2023-10-18 03:13:56,230 - keras_regression - DEBUG - Parameters received
+2023-10-18 03:27:11,472 - keras_regression - DEBUG - Model run
+2023-10-18 03:27:21,285 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 16, 'units2': 256, 'units3': 8, 'batch_size': 16, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.6662497424774144}
+2023-10-18 03:27:21,285 - keras_regression - DEBUG - {'units1': 16, 'units2': 256, 'units3': 8, 'optimizer': 'RMSprop', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.6662497424774144}
+2023-10-18 03:27:21,285 - keras_regression - DEBUG - Parameters received
+2023-10-18 03:40:38,133 - keras_regression - DEBUG - Model run
+2023-10-18 03:40:47,597 - keras_regression - DEBUG - {'optimizer': 'RMSprop', 'units1': 16, 'units2': 256, 'units3': 8, 'batch_size': 16, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.7589305025119718}
+2023-10-18 03:40:47,597 - keras_regression - DEBUG - {'units1': 16, 'units2': 256, 'units3': 8, 'optimizer': 'RMSprop', 'batch_size': 16, 'learning_rate': 0.01, 'window_size': 64, 'skip': 2, 'iterations': 110, ' learning_rate': 0.7589305025119718}
+2023-10-18 03:40:47,598 - keras_regression - DEBUG - Parameters received
