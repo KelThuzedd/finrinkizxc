@@ -33,8 +33,12 @@ def plot_combined_closing_prices(file_names, column_name):
     plt.show()
 
 
-def plot_closing_prices(file_names,colors, column_name, plot_trend=True, plot_moving_average=True, trend_window_length=15,
+import seaborn as sns
+
+def plot_closing_prices(file_names, colors, column_name, plot_trend=True, plot_moving_average=True, trend_window_length=15,
                         moving_avg_window=30):
+    sns.set_style('whitegrid')
+
     for i, file_name in enumerate(file_names):
         # Construct the file path
         file_path = '../data_updated/' + file_name
@@ -44,7 +48,8 @@ def plot_closing_prices(file_names,colors, column_name, plot_trend=True, plot_mo
         dataset['Дата'] = pd.to_datetime(dataset['Дата'])
 
         # Plot the closing prices
-        plt.figure(figsize=(12, 6))
+        plt.figure(figsize=(10, 5))
+        plt.grid(True)
         plt.plot(dataset['Дата'], dataset[column_name], label=f'{column_name} для акции {file_name}',
                  color=colors[i % len(colors)])
 
@@ -59,12 +64,12 @@ def plot_closing_prices(file_names,colors, column_name, plot_trend=True, plot_mo
             plt.plot(dataset['Дата'], moving_avg, label=f'{column_name} {moving_avg_window}-day MA', color='green',
                      linestyle='--')
 
-        plt.title(f'"{column_name}" для акции "{file_name}"')
+        plt.title(f'График "{column_name}" для акции "{file_name}"')
         plt.xlabel('Дата')
-        plt.ylabel(f'"{column_name}" закрытия')
-        plt.legend()
+        plt.ylabel(f'Значение "{column_name}"')
+        plt.legend(loc='upper left')
+        plt.tight_layout()
         plt.show()
-
 
 def calculate_statistics(file_names, columns):
     # Initialize an empty DataFrame to store the statistics
