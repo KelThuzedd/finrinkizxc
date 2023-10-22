@@ -1,0 +1,34 @@
+{
+  "n_intervals": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "forecast_days": {
+    "_type": "choice",
+    "_value": [1,2,4,8,16, 32, 64, 128, 256]
+  },
+  "units1": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "units2": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  "units3": {
+    "_type": "choice",
+    "_value": [2,4,8,16, 32, 64, 128, 256]
+  },
+  " dropout_rate_1": {
+    "_type": "uniform",
+    "_value": [0, 0.5]
+  },
+  " dropout_rate_2": {
+    "_type": "uniform",
+    "_value": [0, 0.5]
+  },
+  " dropout_rate_3": {
+    "_type": "uniform",
+    "_value": [0, 0.5]
+  }
+}

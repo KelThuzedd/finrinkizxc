@@ -55,14 +55,14 @@ def load_data(file_id, n_intervals, n_features, data_folder='../datasets'):
     return data, scaler
 
 
-def create_model(X_train_ltsm):
+def create_model(X_train_ltsm,forecast_days):
     model = Sequential()
-    model.add(LSTM(units=77, return_sequences=True, input_shape=(X_train_ltsm.shape[1], X_train_ltsm.shape[2])))
+    model.add(LSTM(units=128, return_sequences=True, input_shape=(X_train_ltsm.shape[1], X_train_ltsm.shape[2])))
     model.add(Dropout(0.2))
-    model.add(LSTM(units=77, return_sequences=False))
+    model.add(LSTM(units=128, return_sequences=False))
     model.add(Dropout(0.2))
-    model.add(Dense(units=77, activation='relu'))
-    model.add(Dense(units=1, activation='linear'))
+    model.add(Dense(units=128, activation='relu'))
+    model.add(Dense(units=forecast_days, activation='linear'))
 
     model.compile(optimizer='adam', loss='mse')
     return model
@@ -102,44 +102,19 @@ def invert_scaling_for_actual(y_actual, x_actual, n_features, scaler):
     return inv_y_test
 
 
-def plot_results(inv_y_train, inv_y_test, inv_yhat):
+def plot_results(inv_y_train, inv_y_test, inv_yhat,inv_yhat_train,date_df):
     plt.figure(figsize=(12, 6))
-    plt.plot(inv_y_train, label='Actual (Train)')
-    plt.plot(range(len(inv_y_train), len(inv_y_train) + len(inv_y_test)), inv_y_test, label='Actual (Test)')
-    plt.plot(range(len(inv_y_train), len(inv_y_train) + len(inv_y_test)), inv_yhat, label='Predicted (Test)')
+    plt.plot(date_df,inv_y_train, label='Actual (Train)')
+    plt.plot(date_df,inv_yhat_train, label='Predicted (Train)')
+    plt.plot(date_df, inv_y_test, label='Actual (Test)')
+    plt.plot(date_df, inv_yhat, label='Predicted (Test)')
     plt.xlabel('Day')
     plt.ylabel('Price')
     plt.legend()
     plt.show()
 
 
-def forecast_next_days(model, X_test_ltsm, y_test_ltsm, forecast_days, n_intervals, n_features, scaler):
-    # Используем исходные данные из тестового набора для первых 60 дней
-    forecast = y_test_ltsm[-n_intervals:].tolist()
-    forecast = [item for sublist in forecast for item in sublist]
-    # Используем последние 60 дней из тестового набора
-    last_60_days = X_test_ltsm[-n_intervals:]
 
-    for i in range(forecast_days):
-        # Используйте модель для прогнозирования следующего дня
-        next_day_prediction = model.predict(last_60_days)
-        next_day = next_day_prediction
-        # Добавьте прогноз в список прогнозов
-        forecast.append(next_day[0, 0])
-
-        # Обновите last_60_days, удалив первый день и добавив новый прогноз
-        last_60_days = np.roll(last_60_days, shift=-1, axis=0)
-        last_60_days[-1] = next_day
-
-    forecast = forecast[:n_intervals]
-
-    # Обратное масштабирование прогнозов
-    forecast = np.array(forecast)
-    # Повторяем прогнозы для каждого признака
-    forecast = np.repeat(forecast, n_features).reshape(-1, n_features)
-    forecast = scaler.inverse_transform(forecast)[:, 0]
-    forecast = forecast[::-1]
-    return forecast
 
 
 # Visualize the results
